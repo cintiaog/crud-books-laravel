@@ -4,7 +4,7 @@
     <h1 class="text-center">CRUD</h1>
     <hr>
     <div class="text-center mt-3 mb-4">
-    <a href ="{{url('books/create')}}">
+    <a href ="{{url('novolivro')}}">
             <button class="btn btn-success">Cadastrar</button>
         </a>
     </div>

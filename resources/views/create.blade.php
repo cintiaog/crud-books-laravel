@@ -14,7 +14,6 @@
                     <option value="{{$user->id}}">{{$user->name}}</option>
                 @endforeach
             </select><br>
-            <input class="form-control" type="text" name="pages" id="pages" placeholder="Páginas:"><br>
             <input class="form-control" type="text" name="price" id="price" placeholder="Preço:"><br>
             <input class="btn btn-primary" type="submit" value="Cadastrar">
         </form>
