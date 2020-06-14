@@ -19,3 +19,5 @@ Route::get('/books/{id}', 'BookController@show');
 
 Route::get('/novolivro', 'BookController@create');
 Route::post('books','BookController@store');
+
+Route::get('/books/{id}/edit', 'BookController@edit');
